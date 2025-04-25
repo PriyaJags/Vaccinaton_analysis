@@ -95,12 +95,11 @@ Performed statistical summaries and visualizations to:
 
 ##  Datasets Overview
 
-| Table | Description |
+| Table | Variables |
 |-------|-------------|
-| **Coverage** |Group, Code, Name,Year,Antigen,Antigen_description,Coverage_category,Coverage_category description,Target number,doses,Coverage |
-| **Incidence Rate** | Yearly disease cases per 100,000 |
-| **Reported Cases** | Raw disease case numbers |
-| **Vaccine Introduction** | Year and status of vaccine rollout |
-| **Vaccine Schedule** | Dose timing, target population, region-specific info |
+| **Coverage** |Group, Code, Name, Year, Antigen, Antigen_description, Coverage_category, Coverage_category description, Target number, doses, Coverage |
+| **Incidence Rate** | Group, Code, , Name, Year, Disease, Disease description, Denominator, Incidence rate  : Classification of the data; here, it represents countries.|
+| **Reported Cases** |Group, Code, Name, Year, Disease, Disease description, Cases|
+| **Vaccine Introduction** | ISO_3_Code, Country Name,,  Who Region, Year, Description, Intro  : Unique 3-letter ISO country code.|
+| **Vaccine Schedule** | ISO_3_Code, Country Name, Who Region, Year, Vaccine code, Vaccine description, Schedule rounds, Target pop, Target pop description, Geoarea, Age administered, Source comment.|
 
----
